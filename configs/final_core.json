@@ -1,0 +1,27 @@
+{
+  "initial_classes": 50,
+  "increment_size": 5,
+  "num_increments": 10,
+  "new_class_start": 50,
+  "train_closed": "train-closed",
+  "validation_closed": "val-closed",
+  "train_add_template": "train-add{step}",
+  "validation_add_template": "val-add{step}",
+  "test_closed": "test-closed",
+  "test_add_template": "test-add{step}",
+  "embedding_dim": 1024,
+  "centers_per_class": 32,
+  "e2_mode": "trainable",
+  "projector_alpha": 0.95,
+  "new_ce_weight": 1.0,
+  "prototype_ce_weight": 4.0,
+  "distill_weight": 0.0,
+  "new_data_distill_weight": 0.0,
+  "anchor_ce_weight": 0.0,
+  "anchor_margin_weight": 0.0,
+  "early_stop_patience": 6,
+  "early_stop_min_epochs": 10,
+  "early_stop_min_delta": 0.001,
+  "seeds": [42, 43, 44]
+}
+
